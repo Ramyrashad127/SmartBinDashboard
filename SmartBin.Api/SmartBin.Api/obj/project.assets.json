@@ -3197,11 +3197,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\SmartBin.Api.csproj",
+      "projectUniqueName": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\SmartBin.Api.csproj",
       "projectName": "SmartBin.Api",
-      "projectPath": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\SmartBin.Api.csproj",
+      "projectPath": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\SmartBin.Api.csproj",
       "packagesPath": "C:\\Users\\smart\\.nuget\\packages\\",
-      "outputPath": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\obj\\",
+      "outputPath": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gu2oRfeBVX8=",
+  "dgSpecHash": "7apkr9mw41o=",
   "success": true,
-  "projectFilePath": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\SmartBin.Api.csproj",
+  "projectFilePath": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\SmartBin.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\smart\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\smart\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
