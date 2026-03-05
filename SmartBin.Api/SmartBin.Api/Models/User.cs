@@ -1,0 +1,13 @@
+﻿namespace SmartBin.Api.Models
+{
+    public class User
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string PasswordHash { get; set; }
+        public string AuthToken { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public List<Bin> Bins { get; set; }
+    }
+}
