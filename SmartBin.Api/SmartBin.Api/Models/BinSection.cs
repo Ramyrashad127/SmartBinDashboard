@@ -15,6 +15,6 @@ namespace SmartBin.Api.Models
 
         [ForeignKey("Material")]
         public int MaterialId { get; set; }
-        public Material Materia { get; set; }
+        public Material Material { get; set; }
     }
 }

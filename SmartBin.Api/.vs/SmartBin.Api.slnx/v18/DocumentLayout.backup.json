@@ -1,42 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\DEPI\\c#\\SmartBin.Api\\",
+  "WorkspaceRootPath": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\depi\\c#\\smartbin.api\\smartbin.api\\controllers\\transectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\controllers\\transectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260305175227_addnull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartBin.Api\\Migrations\\20260305175227_addnull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\depi\\c#\\smartbin.api\\smartbin.api\\controllers\\bincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\controllers\\bincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\controllers\\bincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\depi\\c#\\smartbin.api\\smartbin.api\\models\\transection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\models\\transection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\services\\binservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\services\\binservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\depi\\c#\\smartbin.api\\smartbin.api\\models\\bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\models\\bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\dtos\\bindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\dtos\\bindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\depi\\c#\\smartbin.api\\smartbin.api\\models\\binsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\models\\binsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\models\\binsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\depi\\c#\\smartbin.api\\smartbin.api\\migrations\\20260305102353_builddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\migrations\\20260305102353_builddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\models\\bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\models\\bin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\depi\\c#\\smartbin.api\\smartbin.api\\models\\surroundingwaste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260306052215_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartBin.Api\\Migrations\\20260306052215_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\dtos\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\dtos\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\services\\transactioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\services\\transactioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\controllers\\transectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\controllers\\transectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260306035653_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SmartBin.Api\\Migrations\\20260306035653_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\graduaion projec\\dashboard\\smartbindashboard\\smartbin.api\\smartbin.api\\models\\surroundingwaste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\models\\surroundingwaste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|f:\\depi\\c#\\smartbin.api\\smartbin.api\\migrations\\20260305141633_addnavigationproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{413326BB-EBE1-8DB9-F71F-A8E6DE7358A2}|SmartBin.Api\\SmartBin.Api.csproj|solutionrelative:smartbin.api\\migrations\\20260305141633_addnavigationproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,121 +78,229 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20260305102353_BuildDatabase.cs",
-              "DocumentMoniker": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260305102353_BuildDatabase.cs",
-              "RelativeDocumentMoniker": "SmartBin.Api\\Migrations\\20260305102353_BuildDatabase.cs",
-              "ToolTip": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260305102353_BuildDatabase.cs",
-              "RelativeToolTip": "SmartBin.Api\\Migrations\\20260305102353_BuildDatabase.cs",
-              "ViewState": "AgIAACIAAACAZWZmZiYowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T10:23:53.772Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "SurroundingWaste.cs",
-              "DocumentMoniker": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Models\\SurroundingWaste.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Models\\SurroundingWaste.cs",
               "RelativeDocumentMoniker": "SmartBin.Api\\Models\\SurroundingWaste.cs",
-              "ToolTip": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Models\\SurroundingWaste.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Models\\SurroundingWaste.cs",
               "RelativeToolTip": "SmartBin.Api\\Models\\SurroundingWaste.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAkwA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T09:26:24.269Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20260305175227_addnull.cs",
-              "DocumentMoniker": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260305175227_addnull.cs",
-              "RelativeDocumentMoniker": "SmartBin.Api\\Migrations\\20260305175227_addnull.cs",
-              "ToolTip": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260305175227_addnull.cs",
-              "RelativeToolTip": "SmartBin.Api\\Migrations\\20260305175227_addnull.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T17:52:27.555Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Transection.cs",
-              "DocumentMoniker": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Models\\Transection.cs",
-              "RelativeDocumentMoniker": "SmartBin.Api\\Models\\Transection.cs",
-              "ToolTip": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Models\\Transection.cs",
-              "RelativeToolTip": "SmartBin.Api\\Models\\Transection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T17:48:17.408Z",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SmartBin.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAcAAAAANDMzMzPbvwgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-06T05:24:24.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TransectionController.cs",
-              "DocumentMoniker": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Controllers\\TransectionController.cs",
-              "RelativeDocumentMoniker": "SmartBin.Api\\Controllers\\TransectionController.cs",
-              "ToolTip": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Controllers\\TransectionController.cs*",
-              "RelativeToolTip": "SmartBin.Api\\Controllers\\TransectionController.cs*",
-              "ViewState": "AgIAAD8AAADAmZmZmZkewFQAAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T17:08:10.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BinSection.cs",
-              "DocumentMoniker": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Models\\BinSection.cs",
-              "RelativeDocumentMoniker": "SmartBin.Api\\Models\\BinSection.cs",
-              "ToolTip": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Models\\BinSection.cs",
-              "RelativeToolTip": "SmartBin.Api\\Models\\BinSection.cs",
-              "ViewState": "AgIAAAAAAADd//////8gwAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T14:05:27.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Bin.cs",
-              "DocumentMoniker": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Models\\Bin.cs",
-              "RelativeDocumentMoniker": "SmartBin.Api\\Models\\Bin.cs",
-              "ToolTip": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Models\\Bin.cs",
-              "RelativeToolTip": "SmartBin.Api\\Models\\Bin.cs",
-              "ViewState": "AgIAAAMAAABgmZmZmZkOwAwAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T13:38:18.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "BinController.cs",
-              "DocumentMoniker": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Controllers\\BinController.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Controllers\\BinController.cs",
               "RelativeDocumentMoniker": "SmartBin.Api\\Controllers\\BinController.cs",
-              "ToolTip": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Controllers\\BinController.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Controllers\\BinController.cs",
               "RelativeToolTip": "SmartBin.Api\\Controllers\\BinController.cs",
-              "ViewState": "AgIAADwAAAAAzMzMzAwswDsAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAABAMzMzM7MbwDoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T12:47:18.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BinSection.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Models\\BinSection.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Models\\BinSection.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Models\\BinSection.cs",
+              "RelativeToolTip": "SmartBin.Api\\Models\\BinSection.cs",
+              "ViewState": "AgIAAAgAAABgMzMzM/MhwBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T14:05:27.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Program.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Program.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Program.cs",
+              "RelativeToolTip": "SmartBin.Api\\Program.cs",
+              "ViewState": "AgIAABAAAABAMjMzM7MRwBsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T02:17:35.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartBin.Api\\appsettings.json",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\appsettings.json",
+              "RelativeToolTip": "SmartBin.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-06T03:44:27.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BinService.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Services\\BinService.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Services\\BinService.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Services\\BinService.cs",
+              "RelativeToolTip": "SmartBin.Api\\Services\\BinService.cs",
+              "ViewState": "AgIAAAwAAAAAm5mZmZkpwI8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T03:00:25.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BinDto.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\DTOs\\BinDto.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\DTOs\\BinDto.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\DTOs\\BinDto.cs",
+              "RelativeToolTip": "SmartBin.Api\\DTOs\\BinDto.cs",
+              "ViewState": "AgIAAAgAAAAgZmZmZuYcwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T02:54:04.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bin.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Models\\Bin.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Models\\Bin.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Models\\Bin.cs",
+              "RelativeToolTip": "SmartBin.Api\\Models\\Bin.cs",
+              "ViewState": "AgIAAAoAAADAnJmZmZkJwA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T13:38:18.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "20260305141633_AddNavigationProperty.cs",
-              "DocumentMoniker": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260305141633_AddNavigationProperty.cs",
-              "RelativeDocumentMoniker": "SmartBin.Api\\Migrations\\20260305141633_AddNavigationProperty.cs",
-              "ToolTip": "F:\\DEPI\\c#\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260305141633_AddNavigationProperty.cs",
-              "RelativeToolTip": "SmartBin.Api\\Migrations\\20260305141633_AddNavigationProperty.cs",
+              "Title": "20260306052215_edit.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260306052215_edit.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Migrations\\20260306052215_edit.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260306052215_edit.cs",
+              "RelativeToolTip": "SmartBin.Api\\Migrations\\20260306052215_edit.cs",
+              "ViewState": "AgIAAAQAAABgZmZmZuYcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T05:22:15.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransactioService.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Services\\TransactioService.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Services\\TransactioService.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Services\\TransactioService.cs",
+              "RelativeToolTip": "SmartBin.Api\\Services\\TransactioService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAEAswEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T03:01:44.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransectionController.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Controllers\\TransectionController.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Controllers\\TransectionController.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Controllers\\TransectionController.cs",
+              "RelativeToolTip": "SmartBin.Api\\Controllers\\TransectionController.cs",
+              "ViewState": "AgIAABkAAACAmZmZmRkhwBUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T17:08:10.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Material.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Models\\Material.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Models\\Material.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Models\\Material.cs",
+              "RelativeToolTip": "SmartBin.Api\\Models\\Material.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T02:52:13.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TransactionDto.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\DTOs\\TransactionDto.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\DTOs\\TransactionDto.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\DTOs\\TransactionDto.cs",
+              "RelativeToolTip": "SmartBin.Api\\DTOs\\TransactionDto.cs",
+              "ViewState": "AgIAAAYAAAAAmpmZmZkLwAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T02:57:06.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260306035653_start.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260306035653_start.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Migrations\\20260306035653_start.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Migrations\\20260306035653_start.cs",
+              "RelativeToolTip": "SmartBin.Api\\Migrations\\20260306035653_start.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T14:16:33.458Z"
+              "WhenOpened": "2026-03-06T03:56:53.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Data\\AppDbContext.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SmartBin.Api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T02:57:57.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "SmartBin.Api\\Models\\Transaction.cs",
+              "ToolTip": "F:\\graduaion projec\\Dashboard\\SmartBinDashboard\\SmartBin.Api\\SmartBin.Api\\Models\\Transaction.cs",
+              "RelativeToolTip": "SmartBin.Api\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAYAAADgzMzMzOwywAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T17:48:17.408Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -2,13 +2,13 @@
   {
     "ContainingType": "SmartBin.Api.Controllers.BinController",
     "Method": "GetBins",
-    "RelativePath": "api/bin",
+    "RelativePath": "api/Bin",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "UserId",
+        "Name": "userId",
         "Type": "System.Int32",
         "IsRequired": false
       }
@@ -18,13 +18,13 @@
   {
     "ContainingType": "SmartBin.Api.Controllers.BinController",
     "Method": "CreateBin",
-    "RelativePath": "api/bin",
+    "RelativePath": "api/Bin",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "UserId",
+        "Name": "userId",
         "Type": "System.Int32",
         "IsRequired": false
       }
@@ -34,14 +34,19 @@
   {
     "ContainingType": "SmartBin.Api.Controllers.BinController",
     "Method": "UpdateBinLocation",
-    "RelativePath": "api/bin",
+    "RelativePath": "api/Bin",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "BinId",
+        "Name": "binId",
         "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Token",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
@@ -53,32 +58,6 @@
         "Name": "Longitude",
         "Type": "System.Single",
         "IsRequired": false
-      },
-      {
-        "Name": "token",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SmartBin.Api.Controllers.BinController",
-    "Method": "GetBinData",
-    "RelativePath": "api/bin/data",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "BinId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "UserId",
-        "Type": "System.Int32",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -86,18 +65,18 @@
   {
     "ContainingType": "SmartBin.Api.Controllers.BinController",
     "Method": "GetBinSections",
-    "RelativePath": "api/bin/section",
+    "RelativePath": "api/Bin/section",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "BinId",
+        "Name": "binId",
         "Type": "System.Int32",
         "IsRequired": false
       },
       {
-        "Name": "UserId",
+        "Name": "userId",
         "Type": "System.Int32",
         "IsRequired": false
       }
@@ -105,20 +84,46 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SmartBin.Api.Controllers.TransectionController",
-    "Method": "GetTransections",
-    "RelativePath": "api/transection",
+    "ContainingType": "SmartBin.Api.Controllers.BinController",
+    "Method": "UpdateBinSection",
+    "RelativePath": "api/Bin/section",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "binId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dto",
+        "Type": "SmartBin.Api.DTOs.BinSectionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartBin.Api.Controllers.TransactionController",
+    "Method": "GetTransactions",
+    "RelativePath": "api/Transaction",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "BinId",
+        "Name": "binId",
         "Type": "System.Int32",
         "IsRequired": false
       },
       {
-        "Name": "UserId",
+        "Name": "userId",
         "Type": "System.Int32",
         "IsRequired": false
       },
@@ -126,30 +131,25 @@
         "Name": "pageNumber",
         "Type": "System.Int32",
         "IsRequired": false
-      },
-      {
-        "Name": "pageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "SmartBin.Api.Controllers.TransectionController",
-    "Method": "AddTransection",
-    "RelativePath": "api/transection",
+    "ContainingType": "SmartBin.Api.Controllers.TransactionController",
+    "Method": "AddTransaction",
+    "RelativePath": "api/Transaction",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "BinId",
+        "Name": "binId",
         "Type": "System.Int32",
         "IsRequired": false
       },
       {
-        "Name": "Token",
+        "Name": "token",
         "Type": "System.String",
         "IsRequired": false
       },
@@ -159,7 +159,7 @@
         "IsRequired": false
       },
       {
-        "Name": "MaterialId",
+        "Name": "materialId",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }

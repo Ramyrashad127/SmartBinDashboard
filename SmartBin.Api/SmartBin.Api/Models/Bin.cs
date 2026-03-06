@@ -13,6 +13,6 @@ namespace SmartBin.Api.Models
         public int UserId { get; set; }
         public User User { get; set; }
         public List<BinSection> BinSections { get; set; }
-        public List<Transection> Transections { get; set; }
+        public List<Transaction> Transactions { get; set; }
     }
 }

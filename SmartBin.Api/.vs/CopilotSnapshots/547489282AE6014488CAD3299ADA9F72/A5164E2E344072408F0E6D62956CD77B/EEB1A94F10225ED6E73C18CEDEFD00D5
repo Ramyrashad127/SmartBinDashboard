@@ -1,0 +1,50 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using SmartBin.Api.DTOs;
+using SmartBin.Api.Services;
+
+namespace SmartBin.Api.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class BinController : ControllerBase
+    {
+        private readonly IBinService _binService;
+
+        public BinController(IBinService binService)
+        {
+            _binService = binService;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetBins([FromQuery] int userId)
+        {
+            var bins = await _binService.GetBinsAsync(userId);
+            return Ok(bins);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateBin([FromQuery] int userId)
+        {
+            var bin = await _binService.CreateBinAsync(userId);
+            return Ok(bin);
+        }
+
+        [HttpPut("{binId}/location")]
+        public async Task<IActionResult> UpdateBinLocation(int binId, [FromBody] UpdateLocationDto dto)
+        {
+            var success = await _binService.UpdateLocationAsync(binId, dto);
+            if (!success) return NotFound("Bin not found or token invalid.");
+
+            return NoContent(); // 204 No Content
+        }
+
+        [HttpGet("{binId}/sections")]
+        public async Task<IActionResult> GetBinSections(int binId, [FromQuery] int userId)
+        {
+            var bin = await _binService.GetBinSectionsAsync(binId, userId);
+            if (bin == null) return NotFound();
+
+            return Ok(bin);
+        }
+    }
+}

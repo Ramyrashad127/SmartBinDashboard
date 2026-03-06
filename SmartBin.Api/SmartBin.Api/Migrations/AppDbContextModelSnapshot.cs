@@ -164,7 +164,7 @@ namespace SmartBin.Api.Migrations
                     b.ToTable("SurroundingWastes");
                 });
 
-            modelBuilder.Entity("SmartBin.Api.Models.Transection", b =>
+            modelBuilder.Entity("SmartBin.Api.Models.Transaction", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -190,7 +190,7 @@ namespace SmartBin.Api.Migrations
 
                     b.HasIndex("MaterialId");
 
-                    b.ToTable("Transections");
+                    b.ToTable("Transactions");
                 });
 
             modelBuilder.Entity("SmartBin.Api.Models.User", b =>
@@ -244,7 +244,7 @@ namespace SmartBin.Api.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SmartBin.Api.Models.Material", "Materia")
+                    b.HasOne("SmartBin.Api.Models.Material", "Material")
                         .WithMany("BinSections")
                         .HasForeignKey("MaterialId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -252,7 +252,7 @@ namespace SmartBin.Api.Migrations
 
                     b.Navigation("Bin");
 
-                    b.Navigation("Materia");
+                    b.Navigation("Material");
                 });
 
             modelBuilder.Entity("SmartBin.Api.Models.CrowdDensity", b =>
@@ -277,10 +277,10 @@ namespace SmartBin.Api.Migrations
                     b.Navigation("Bin");
                 });
 
-            modelBuilder.Entity("SmartBin.Api.Models.Transection", b =>
+            modelBuilder.Entity("SmartBin.Api.Models.Transaction", b =>
                 {
                     b.HasOne("SmartBin.Api.Models.Bin", "Bin")
-                        .WithMany("Transections")
+                        .WithMany("Transactions")
                         .HasForeignKey("BinId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -300,7 +300,7 @@ namespace SmartBin.Api.Migrations
                 {
                     b.Navigation("BinSections");
 
-                    b.Navigation("Transections");
+                    b.Navigation("Transactions");
                 });
 
             modelBuilder.Entity("SmartBin.Api.Models.Material", b =>

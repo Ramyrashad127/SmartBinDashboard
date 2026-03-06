@@ -13,14 +13,14 @@
     }
   ],
   "paths": {
-    "/api/bin": {
+    "/api/Bin": {
       "get": {
         "tags": [
           "Bin"
         ],
         "parameters": [
           {
-            "name": "UserId",
+            "name": "userId",
             "in": "query",
             "schema": {
               "pattern": "^-?(?:0|[1-9]\\d*)$",
@@ -44,7 +44,7 @@
         ],
         "parameters": [
           {
-            "name": "UserId",
+            "name": "userId",
             "in": "query",
             "schema": {
               "pattern": "^-?(?:0|[1-9]\\d*)$",
@@ -68,7 +68,7 @@
         ],
         "parameters": [
           {
-            "name": "BinId",
+            "name": "binId",
             "in": "query",
             "schema": {
               "pattern": "^-?(?:0|[1-9]\\d*)$",
@@ -77,6 +77,13 @@
                 "string"
               ],
               "format": "int32"
+            }
+          },
+          {
+            "name": "Token",
+            "in": "query",
+            "schema": {
+              "type": "string"
             }
           },
           {
@@ -102,6 +109,68 @@
               ],
               "format": "float"
             }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Bin/section": {
+      "get": {
+        "tags": [
+          "Bin"
+        ],
+        "parameters": [
+          {
+            "name": "binId",
+            "in": "query",
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          },
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Bin"
+        ],
+        "parameters": [
+          {
+            "name": "binId",
+            "in": "query",
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
           },
           {
             "name": "token",
@@ -111,6 +180,26 @@
             }
           }
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BinSectionDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BinSectionDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BinSectionDto"
+              }
+            }
+          },
+          "required": true
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -118,14 +207,14 @@
         }
       }
     },
-    "/api/bin/data": {
+    "/api/Transaction": {
       "get": {
         "tags": [
-          "Bin"
+          "Transaction"
         ],
         "parameters": [
           {
-            "name": "BinId",
+            "name": "binId",
             "in": "query",
             "schema": {
               "pattern": "^-?(?:0|[1-9]\\d*)$",
@@ -137,83 +226,7 @@
             }
           },
           {
-            "name": "UserId",
-            "in": "query",
-            "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/bin/section": {
-      "get": {
-        "tags": [
-          "Bin"
-        ],
-        "parameters": [
-          {
-            "name": "BinId",
-            "in": "query",
-            "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
-              "format": "int32"
-            }
-          },
-          {
-            "name": "UserId",
-            "in": "query",
-            "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/transection": {
-      "get": {
-        "tags": [
-          "Transection"
-        ],
-        "parameters": [
-          {
-            "name": "BinId",
-            "in": "query",
-            "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
-              "format": "int32"
-            }
-          },
-          {
-            "name": "UserId",
+            "name": "userId",
             "in": "query",
             "schema": {
               "pattern": "^-?(?:0|[1-9]\\d*)$",
@@ -236,19 +249,6 @@
               "format": "int32",
               "default": 1
             }
-          },
-          {
-            "name": "pageSize",
-            "in": "query",
-            "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
-              "format": "int32",
-              "default": 10
-            }
           }
         ],
         "responses": {
@@ -259,51 +259,57 @@
       },
       "post": {
         "tags": [
-          "Transection"
-        ],
-        "parameters": [
-          {
-            "name": "BinId",
-            "in": "query",
-            "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
-              "format": "int32"
-            }
-          },
-          {
-            "name": "Token",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "MaterialId",
-            "in": "query",
-            "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
-              "format": "int32"
-            }
-          }
+          "Transaction"
         ],
         "requestBody": {
           "content": {
             "multipart/form-data": {
               "schema": {
                 "type": "object",
-                "properties": {
-                  "image": {
-                    "$ref": "#/components/schemas/IFormFile"
+                "allOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "binId": {
+                        "pattern": "^-?(?:0|[1-9]\\d*)$",
+                        "type": [
+                          "integer",
+                          "string"
+                        ],
+                        "format": "int32"
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "token": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "image": {
+                        "$ref": "#/components/schemas/IFormFile"
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "materialId": {
+                        "pattern": "^-?(?:0|[1-9]\\d*)$",
+                        "type": [
+                          "integer",
+                          "string"
+                        ],
+                        "format": "int32"
+                      }
+                    }
                   }
-                }
+                ]
               }
             }
           },
@@ -319,6 +325,38 @@
   },
   "components": {
     "schemas": {
+      "BinSectionDto": {
+        "type": "object",
+        "properties": {
+          "materialId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "materialName": {
+            "type": "string"
+          },
+          "levelPercentage": {
+            "pattern": "^-?(?:0|[1-9]\\d*)(?:\\.\\d+)?(?:[eE][+-]?\\d+)?$",
+            "type": [
+              "number",
+              "string"
+            ],
+            "format": "float"
+          },
+          "weight": {
+            "pattern": "^-?(?:0|[1-9]\\d*)(?:\\.\\d+)?(?:[eE][+-]?\\d+)?$",
+            "type": [
+              "number",
+              "string"
+            ],
+            "format": "float"
+          }
+        }
+      },
       "IFormFile": {
         "type": "string",
         "format": "binary"
@@ -330,7 +368,7 @@
       "name": "Bin"
     },
     {
-      "name": "Transection"
+      "name": "Transaction"
     }
   ]
 }
