@@ -69,19 +69,8 @@ namespace SmartBin.Api.Services
             _context.BinSections.AddRange(sections);
             await _context.SaveChangesAsync();
 
-            return new BinDto
-            {
-                Id = bin.Id,
-                IdentificationToken = bin.IdentificationToken,
-                CreatedAt = bin.CreatedAt,
-                Sections = sections.Select(s => new BinSectionDto
-                {
-                    MaterialId = s.MaterialId,
-                    MaterialName = s.Material.Name,
-                    LevelPercentage = s.LevelPercentage,
-                    Weight = s.Weight
-                }).ToList()
-            };
+            // Re-query from DB so EF resolves the Material navigation property correctly
+            return await GetBinByIdAsync(bin.Id);
         }
 
         public async Task<bool> UpdateLocationAsync(int binId, UpdateLocationDto dto)

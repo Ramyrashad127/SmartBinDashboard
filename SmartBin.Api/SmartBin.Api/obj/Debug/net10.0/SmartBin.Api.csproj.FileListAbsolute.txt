@@ -169,7 +169,6 @@ F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\De
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\Debug\net10.0\Azure.Core.dll
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\Debug\net10.0\Azure.Identity.dll
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\Debug\net10.0\Humanizer.dll
-F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\Debug\net10.0\Microsoft.Build.Framework.dll
@@ -312,10 +311,14 @@ F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\De
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\Debug\net10.0\staticwebassets.development.json
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\Debug\net10.0\swae.build.ex.cache
-F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\Debug\net10.0\SmartBin.B1419AE9.Up2Date
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\Debug\net10.0\SmartBin.Api.dll
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\Debug\net10.0\refint\SmartBin.Api.dll
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\Debug\net10.0\SmartBin.Api.pdb
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\Debug\net10.0\SmartBin.Api.genruntimeconfig.cache
 F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\Debug\net10.0\ref\SmartBin.Api.dll
+F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\Debug\net10.0\BCrypt.Net-Next.dll
+F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\graduaion projec\Dashboard\SmartBinDashboard\SmartBin.Api\SmartBin.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace SmartBin.Api.Models
+namespace SmartBin.Api.DTOs
 {
     public class LoginRequest
     {

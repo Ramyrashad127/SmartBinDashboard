@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SmartBin.Api.Models;   
-using SmartBin.Api.Services; 
+using SmartBin.Api.DTOs;
+using SmartBin.Api.Services;
+using System.Security.Claims;
 
 namespace SmartBin.Api.Controllers
 {
@@ -15,31 +17,43 @@ namespace SmartBin.Api.Controllers
             _authService = authService;
         }
 
+        private int GetUserId() =>
+            int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)
+                ?? User.FindFirstValue("sub")
+                ?? throw new UnauthorizedAccessException());
+
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterRequest model)
         {
-            var result = await _authService.RegisterAsync(model);
+            var (status, userId) = await _authService.RegisterAsync(model);
 
-            if (result == "0")
+            if (status == "EMAIL_EXISTS")
             {
-                return BadRequest(new { Message = result });
+                return BadRequest(new { Message = "Email already in use." });
             }
 
-            return Ok(new { Message = result });
+            return Ok(new { Message = "User registered successfully.", UserId = userId });
         }
+
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest model)
         {
-            var result = await _authService.LoginAsync(model);
+            var (token, userId) = await _authService.LoginAsync(model);
 
-            if (result == "0")
+            if (token == "INVALID")
             {
-                // Returns 401 Unauthorized
-                return Unauthorized(new { Message = result });
+                return Unauthorized(new { Message = "Invalid email or password." });
             }
 
-            // Returns 200 OK
-            return Ok(new { Message = result });
+            return Ok(new { Token = token, UserId = userId });
+        }
+
+        [HttpPost("logout")]
+        [Authorize]
+        public async Task<IActionResult> Logout()
+        {
+            await _authService.LogoutAsync(GetUserId());
+            return Ok(new { Message = "Logged out successfully." });
         }
     }
 }

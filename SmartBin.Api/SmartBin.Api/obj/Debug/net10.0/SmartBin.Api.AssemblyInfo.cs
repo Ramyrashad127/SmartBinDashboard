@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartBin.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a19903d927d34dc3b24a77335cdab02a998427b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64f7d8b502743e8a920e6cbe85a0731eb00807a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartBin.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartBin.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

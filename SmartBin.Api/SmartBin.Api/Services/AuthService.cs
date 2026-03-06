@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using SmartBin.Api.Data;
+using SmartBin.Api.DTOs;
 using SmartBin.Api.Models; 
 using BCrypt.Net;
 using System.IdentityModel.Tokens.Jwt;
@@ -20,12 +21,12 @@ namespace SmartBin.Api.Services
             _configuration = configuration;
         }
 
-        public async Task<string> RegisterAsync(RegisterRequest request)
+        public async Task<(string status, int userId)> RegisterAsync(RegisterRequest request)
         {
             var userExists = await _context.Users.AnyAsync(u => u.Email == request.Email);
             if (userExists)
             {
-                return "0";
+                return ("EMAIL_EXISTS", 0);
             }
 
             string hashedPassword = BCrypt.Net.BCrypt.HashPassword(request.Password);
@@ -41,23 +42,23 @@ namespace SmartBin.Api.Services
             _context.Users.Add(newUser);
             await _context.SaveChangesAsync();
 
-            return "User registered successfully.";
+            return ("OK", newUser.Id);
         }
 
-        public async Task<string> LoginAsync(LoginRequest request)
+        public async Task<(string token, int userId)> LoginAsync(LoginRequest request)
         {
             // 1. Check if user exists
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
             if (user == null)
             {
-                return "0";
+                return ("INVALID", 0);
             }
 
             // 2. Verify password
             bool isPasswordValid = BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash);
             if (!isPasswordValid)
             {
-                return "0";
+                return ("INVALID", 0);
             }
 
             // 3. Generate JWT Token
@@ -66,7 +67,17 @@ namespace SmartBin.Api.Services
             user.AuthToken = token;
             await _context.SaveChangesAsync();
 
-            return token;
+            return (token, user.Id);
+        }
+
+        public async Task<bool> LogoutAsync(int userId)
+        {
+            var user = await _context.Users.FindAsync(userId);
+            if (user == null) return false;
+
+            user.AuthToken = null;
+            await _context.SaveChangesAsync();
+            return true;
         }
 
         private string GenerateJwtToken(User user)
